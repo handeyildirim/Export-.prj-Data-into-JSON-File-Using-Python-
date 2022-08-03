@@ -1,43 +1,24 @@
 # !/usr/bin/python
 
-import os
-import re
-import stat
-import time
+import os.path
+from pathlib import Path
 
-file_content = '{\n    "testcases":\n    [\n%s    ]\n}'
-test_entries = ''
-file_path = os.path.join(os.getcwd(), "../json/testcases_scc_full.json")
-timeout_close = 10
+in_file = "conti_scal.prj"
 
-os.chdir("../conny")
-rp_tests = re.compile(r"\S+[G|S]\d\d\d\d.*\.pkg$")
-num_tests = 0
-for root, dirs, files in os.walk(".", topdown=False):
-    for name in files:
-        if rp_tests.search(name):
-            num_tests += 1
-            test_entries += '	    {"name": "%s", "label": ""},\n' % (os.path.join(root, name).replace("\\", "/"))
-            print(os.path.join(root, name))
+out_dir = os.path.join(os.getcwd(), ".\json\\")
+out_file = "testcases_scc_full.json"
+out_file_path = out_dir + out_file
 
-file_content = file_content % test_entries
+if os.path.exists(in_file):
+    conti_scal = open(out_file_path, 'r')
+    print(conti_scal)
 
-os.chmod(file_path, stat.S_IWOTH | stat.S_IRWXU)
-
-fh = open(file_path, 'w')
-fh.write(file_content)
-fh.close()
-
-print("==============================\nNumber of tests found: %d" % num_tests)
-print("Exported JSON to: %s" % file_path)
-print("Window will close in %d seconds...\n==============================" % timeout_close)
-time.sleep(timeout_close)
-
-# def print_hi(name):
-#     # Use a breakpoint in the code line below to debug your script.
-#     print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-#
-#
-# # Press the green button in the gutter to run the script.
-# if __name__ == '__main__':
-#     print_hi('PyCharm')
+if not os.path.exists(out_dir):
+    print("Creating directory...")
+    Path(out_dir).mkdir(parents=True, exist_ok=True)
+    print("Creating json file...")
+    testcases_scc_full = open(out_file_path, 'w')
+else:
+    if not os.path.exists(out_file_path):
+        print("Creating json file...")
+        testcases_scc_full = open(out_file_path, 'w')
