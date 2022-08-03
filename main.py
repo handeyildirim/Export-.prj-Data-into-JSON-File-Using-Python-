@@ -1,6 +1,7 @@
 # !/usr/bin/python
 
 import os.path
+import re
 from pathlib import Path
 
 file_data = {}
