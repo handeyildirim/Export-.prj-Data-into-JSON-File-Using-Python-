@@ -45,9 +45,8 @@ def create_folder_for_outputs(out_dir_path):
     print("Directory was created to: %s " % out_dir_path)
 
 
-def create_an_output_file():
-    out_dir_path = os.path.join(os.getcwd(), "json\\")
-    out_file_name = "testcases_scc_full.json"
+def create_an_output_file(output_dir: str, out_file_name: str):
+    out_dir_path = os.path.join(os.getcwd(), output_dir)
     out_file_path = out_dir_path + out_file_name
     if not os.path.exists(out_dir_path):
         create_folder_for_outputs(out_dir_path)
@@ -58,20 +57,26 @@ def create_an_output_file():
     return out_file_path
 
 
-def get_inputs_from_prj_file():
-    in_file = ".\\conti_scal.prj"
-    if os.path.exists(in_file):
-        with open(in_file, 'r', encoding='utf-8-sig') as f:
+def get_inputs_from_prj_file(input_file_name: str):
+    if os.path.exists(input_file_name):
+        with open(input_file_name, 'r', encoding='utf-8-sig') as f:
             inputs = f.read()
             return inputs
 
 
-def main():
-    inputs = get_inputs_from_prj_file()
-    out_file_path = create_an_output_file()
+def convert_prj_to_json(input_file: str, output_dir: str, output_file: str):
+    """
+
+    :param input_file: Name of the input file
+    :param output_dir: Path of the directory which contains output file
+    :param output_file: Name of the output file
+    :return:
+    """
+    inputs = get_inputs_from_prj_file(input_file)
+    out_file_path = create_an_output_file(output_dir, output_file)
     contents = get_required_contents_for_json_file(inputs)
     export_data_into_json_file(out_file_path, contents)
 
 
 if __name__ == '__main__':
-    main()
+    convert_prj_to_json("conti_scal.prj", "json\\", "testcases_scc_full.json")
