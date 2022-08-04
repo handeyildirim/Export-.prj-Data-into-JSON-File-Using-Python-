@@ -1,0 +1,1177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PROJECT format-rev="10" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<NAME xsi:type="string">Project</NAME>
+	<ENABLED xsi:type="boolean">True</ENABLED>
+	<REPORTING xsi:type="boolean">True</REPORTING>
+	<ID xsi:type="string">663dc208feb611eb8125000e6c081463</ID>
+	<COMPONENTS>
+		<COMPONENT format-rev="10" xsi:type="subproject">
+			<NAME xsi:type="string">shift</NAME>
+			<ENABLED xsi:type="boolean">True</ENABLED>
+			<REPORTING xsi:type="boolean">True</REPORTING>
+			<ID xsi:type="string">6a0bb0f0feb611ebb47e000e6c081463</ID>
+			<COMPONENTS>
+				<COMPONENT format-rev="10" xsi:type="subproject">
+					<NAME xsi:type="string">serv_job</NAME>
+					<ENABLED xsi:type="boolean">True</ENABLED>
+					<REPORTING xsi:type="boolean">True</REPORTING>
+					<ID xsi:type="string">75502bd8feb611eb8574000e6c081463</ID>
+					<COMPONENTS>
+						<COMPONENT format-rev="5" xsi:type="packageTest">
+							<NAME xsi:type="string">SHIFT_SERV_JOB_G0001 (offset calibration)</NAME>
+							<ENABLED xsi:type="boolean">True</ENABLED>
+							<REPORTING xsi:type="boolean">True</REPORTING>
+							<ID xsi:type="string">75502bd9feb611ebb3c6000e6c081463</ID>
+							<COMPONENTS/>
+							<PACKAGE-REF format-rev="1" xsi:type="packageRef">
+								<PACKAGE-PATH xsi:type="string">../../generic/shift/serv_job/SHIFT_SERV_JOB_G0001 (offset calibration).pkg</PACKAGE-PATH>
+							</PACKAGE-REF>
+						</COMPONENT>
+					</COMPONENTS>
+				</COMPONENT>
+				<COMPONENT format-rev="5" xsi:type="packageTest">
+					<NAME xsi:type="string">SHIFT_G0001 (smoke)</NAME>
+					<ENABLED xsi:type="boolean">True</ENABLED>
+					<REPORTING xsi:type="boolean">True</REPORTING>
+					<ID xsi:type="string">6d351054feb611eb9225000e6c081463</ID>
+					<COMPONENTS/>
+					<PACKAGE-REF format-rev="1" xsi:type="packageRef">
+						<PACKAGE-PATH xsi:type="string">../../generic/shift/SHIFT_G0001 (smoke).pkg</PACKAGE-PATH>
+					</PACKAGE-REF>
+				</COMPONENT>
+				<COMPONENT format-rev="5" xsi:type="packageTest">
+					<NAME xsi:type="string">SHIFT_G0002 (torque, all gears, torque)</NAME>
+					<ENABLED xsi:type="boolean">True</ENABLED>
+					<REPORTING xsi:type="boolean">True</REPORTING>
+					<ID xsi:type="string">6d358526feb611eb8169000e6c081463</ID>
+					<COMPONENTS/>
+					<PACKAGE-REF format-rev="1" xsi:type="packageRef">
+						<PACKAGE-PATH xsi:type="string">../../generic/shift/SHIFT_G0002 (torque, all gears, torque).pkg</PACKAGE-PATH>
+					</PACKAGE-REF>
+				</COMPONENT>
+				<COMPONENT format-rev="5" xsi:type="packageTest">
+					<NAME xsi:type="string">SHIFT_G0003 (startup in high range)</NAME>
+					<ENABLED xsi:type="boolean">True</ENABLED>
+					<REPORTING xsi:type="boolean">True</REPORTING>
+					<ID xsi:type="string">6d35ac34feb611eb9252000e6c081463</ID>
+					<COMPONENTS/>
+					<PACKAGE-REF format-rev="1" xsi:type="packageRef">
+						<PACKAGE-PATH xsi:type="string">../../generic/shift/SHIFT_G0003 (startup in high range).pkg</PACKAGE-PATH>
+					</PACKAGE-REF>
+				</COMPONENT>
+				<COMPONENT format-rev="5" xsi:type="packageTest">
+					<NAME xsi:type="string">SHIFT_G0004 (torque, all gears, synch)</NAME>
+					<ENABLED xsi:type="boolean">True</ENABLED>
+					<REPORTING xsi:type="boolean">True</REPORTING>
+					<ID xsi:type="string">6d35ac35feb611eb9a8a000e6c081463</ID>
+					<COMPONENTS/>
+					<PACKAGE-REF format-rev="1" xsi:type="packageRef">
+						<PACKAGE-PATH xsi:type="string">../../generic/shift/SHIFT_G0004 (torque, all gears, synch).pkg</PACKAGE-PATH>
+					</PACKAGE-REF>
+				</COMPONENT>
+				<COMPONENT format-rev="5" xsi:type="packageTest">
+					<NAME xsi:type="string">SHIFT_G0005 (all gears, testbench signals)</NAME>
+					<ENABLED xsi:type="boolean">True</ENABLED>
+					<REPORTING xsi:type="boolean">True</REPORTING>
+					<ID xsi:type="string">6d35ac36feb611ebbc48000e6c081463</ID>
+					<COMPONENTS/>
+					<PACKAGE-REF format-rev="1" xsi:type="packageRef">
+						<PACKAGE-PATH xsi:type="string">../../generic/shift/SHIFT_G0005 (all gears, testbench signals).pkg</PACKAGE-PATH>
+					</PACKAGE-REF>
+				</COMPONENT>
+				<COMPONENT format-rev="5" xsi:type="packageTest">
+					<NAME xsi:type="string">SHIFT_G0006 (torque, all gears, standstill)</NAME>
+					<ENABLED xsi:type="boolean">True</ENABLED>
+					<REPORTING xsi:type="boolean">True</REPORTING>
+					<ID xsi:type="string">6d35ac37feb611ebb309000e6c081463</ID>
+					<COMPONENTS/>
+					<PACKAGE-REF format-rev="1" xsi:type="packageRef">
+						<PACKAGE-PATH xsi:type="string">../../generic/shift/SHIFT_G0006 (torque, all gears, standstill).pkg</PACKAGE-PATH>
+					</PACKAGE-REF>
+				</COMPONENT>
+				<COMPONENT format-rev="5" xsi:type="packageTest">
+					<NAME xsi:type="string">SHIFT_G0007 (xSleeve while shifting)</NAME>
+					<ENABLED xsi:type="boolean">True</ENABLED>
+					<REPORTING xsi:type="boolean">True</REPORTING>
+					<ID xsi:type="string">6d35ac38feb611eb8f2b000e6c081463</ID>
+					<COMPONENTS/>
+					<PACKAGE-REF format-rev="1" xsi:type="packageRef">
+						<PACKAGE-PATH xsi:type="string">../../generic/shift/SHIFT_G0007 (xSleeve while shifting).pkg</PACKAGE-PATH>
+					</PACKAGE-REF>
+				</COMPONENT>
+				<COMPONENT format-rev="5" xsi:type="packageTest">
+					<NAME xsi:type="string">SHIFT_G0008 (torque, all gears, no synch release)</NAME>
+					<ENABLED xsi:type="boolean">True</ENABLED>
+					<REPORTING xsi:type="boolean">True</REPORTING>
+					<ID xsi:type="string">e3ed9f42471011ec8b91000e6c081463</ID>
+					<COMPONENTS/>
+					<PACKAGE-REF format-rev="1" xsi:type="packageRef">
+						<PACKAGE-PATH xsi:type="string">../../generic/shift/SHIFT_G0008 (torque, all gears, no synch release).pkg</PACKAGE-PATH>
+					</PACKAGE-REF>
+				</COMPONENT>
+				<COMPONENT format-rev="5" xsi:type="packageTest">
+					<NAME xsi:type="string">SHIFT_G0009 (startup, undefined position)</NAME>
+					<ENABLED xsi:type="boolean">False</ENABLED>
+					<REPORTING xsi:type="boolean">True</REPORTING>
+					<ID xsi:type="string">e3ed9f43471011ecabac000e6c081463</ID>
+					<COMPONENTS/>
+					<PACKAGE-REF format-rev="1" xsi:type="packageRef">
+						<PACKAGE-PATH xsi:type="string">../../generic/shift/SHIFT_G0009 (startup, undefined position).pkg</PACKAGE-PATH>
+					</PACKAGE-REF>
+				</COMPONENT>
+				<COMPONENT format-rev="5" xsi:type="packageTest">
+					<NAME xsi:type="string">SHIFT_G0010 (tooth - tooth with parameter)</NAME>
+					<ENABLED xsi:type="boolean">True</ENABLED>
+					<REPORTING xsi:type="boolean">True</REPORTING>
+					<ID xsi:type="string">e3edc634471011ecb596000e6c081463</ID>
+					<COMPONENTS/>
+					<PACKAGE-REF format-rev="1" xsi:type="packageRef">
+						<PACKAGE-PATH xsi:type="string">../../generic/shift/SHIFT_G0010 (tooth - tooth with parameter).pkg</PACKAGE-PATH>
+					</PACKAGE-REF>
+				</COMPONENT>
+				<COMPONENT format-rev="5" xsi:type="packageTest">
+					<NAME xsi:type="string">SHIFT_G0011 (couple on the move)</NAME>
+					<ENABLED xsi:type="boolean">True</ENABLED>
+					<REPORTING xsi:type="boolean">True</REPORTING>
+					<ID xsi:type="string">e3edc635471011ec861b000e6c081463</ID>
+					<COMPONENTS/>
+					<PACKAGE-REF format-rev="1" xsi:type="packageRef">
+						<PACKAGE-PATH xsi:type="string">../../generic/shift/SHIFT_G0011 (couple on the move).pkg</PACKAGE-PATH>
+					</PACKAGE-REF>
+				</COMPONENT>
+				<COMPONENT format-rev="5" xsi:type="packageTest">
+					<NAME xsi:type="string">SHIFT_G0012 (startup in torque control)</NAME>
+					<ENABLED xsi:type="boolean">True</ENABLED>
+					<REPORTING xsi:type="boolean">True</REPORTING>
+					<ID xsi:type="string">66d84bba933611ecafc5000e6c7023a2</ID>
+					<COMPONENTS/>
+					<PACKAGE-REF format-rev="1" xsi:type="packageRef">
+						<PACKAGE-PATH xsi:type="string">../../generic/shift/SHIFT_G0012 (startup in torque control).pkg</PACKAGE-PATH>
+					</PACKAGE-REF>
+				</COMPONENT>
+				<COMPONENT format-rev="5" xsi:type="packageTest">
+					<NAME xsi:type="string">SHIFT_G0013 (multiple, no fault)</NAME>
+					<ENABLED xsi:type="boolean">True</ENABLED>
+					<REPORTING xsi:type="boolean">True</REPORTING>
+					<ID xsi:type="string">66d84bbb933611ecb40f000e6c7023a2</ID>
+					<COMPONENTS/>
+					<PACKAGE-REF format-rev="1" xsi:type="packageRef">
+						<PACKAGE-PATH xsi:type="string">../../generic/shift/SHIFT_G0013 (multiple, no fault).pkg</PACKAGE-PATH>
+					</PACKAGE-REF>
+				</COMPONENT>
+			</COMPONENTS>
+		</COMPONENT>
+		<COMPONENT format-rev="10" xsi:type="subproject">
+			<NAME xsi:type="string">ed</NAME>
+			<ENABLED xsi:type="boolean">False</ENABLED>
+			<REPORTING xsi:type="boolean">True</REPORTING>
+			<ID xsi:type="string">fa8e9b0a471011ec92e8000e6c081463</ID>
+			<COMPONENTS>
+				<COMPONENT format-rev="5" xsi:type="packageTest">
+					<NAME xsi:type="string">ED_CTRL_G0002 (torque control, smoke)</NAME>
+					<ENABLED xsi:type="boolean">True</ENABLED>
+					<REPORTING xsi:type="boolean">True</REPORTING>
+					<ID xsi:type="string">03e08c78471111eca3ce000e6c081463</ID>
+					<COMPONENTS/>
+					<PACKAGE-REF format-rev="1" xsi:type="packageRef">
+						<PACKAGE-PATH xsi:type="string">../../generic/ed/ctrl/ED_CTRL_G0002 (torque control, smoke).pkg</PACKAGE-PATH>
+					</PACKAGE-REF>
+				</COMPONENT>
+				<COMPONENT format-rev="5" xsi:type="packageTest">
+					<NAME xsi:type="string">ED_CTRL_G0004 (torque control, derating motor temp)</NAME>
+					<ENABLED xsi:type="boolean">True</ENABLED>
+					<REPORTING xsi:type="boolean">True</REPORTING>
+					<ID xsi:type="string">95b1ea0c933611ecbba1000e6c7023a2</ID>
+					<COMPONENTS/>
+					<PACKAGE-REF format-rev="1" xsi:type="packageRef">
+						<PACKAGE-PATH xsi:type="string">../../generic/ed/ctrl/ED_CTRL_G0004 (torque control, derating motor temp).pkg</PACKAGE-PATH>
+					</PACKAGE-REF>
+				</COMPONENT>
+				<COMPONENT format-rev="5" xsi:type="packageTest">
+					<NAME xsi:type="string">ED_CTRL_G0005 (torque control, derating power switch temp)</NAME>
+					<ENABLED xsi:type="boolean">True</ENABLED>
+					<REPORTING xsi:type="boolean">True</REPORTING>
+					<ID xsi:type="string">95b2111a933611eca55f000e6c7023a2</ID>
+					<COMPONENTS/>
+					<PACKAGE-REF format-rev="1" xsi:type="packageRef">
+						<PACKAGE-PATH xsi:type="string">../../generic/ed/ctrl/ED_CTRL_G0005 (torque control, derating power switch temp).pkg</PACKAGE-PATH>
+					</PACKAGE-REF>
+				</COMPONENT>
+				<COMPONENT format-rev="5" xsi:type="packageTest">
+					<NAME xsi:type="string">ED_CTRL_G0006 (torque control, multiple temp)</NAME>
+					<ENABLED xsi:type="boolean">True</ENABLED>
+					<REPORTING xsi:type="boolean">True</REPORTING>
+					<ID xsi:type="string">95b2111b933611eca87a000e6c7023a2</ID>
+					<COMPONENTS/>
+					<PACKAGE-REF format-rev="1" xsi:type="packageRef">
+						<PACKAGE-PATH xsi:type="string">../../generic/ed/ctrl/ED_CTRL_G0006 (torque control, multiple temp).pkg</PACKAGE-PATH>
+					</PACKAGE-REF>
+				</COMPONENT>
+				<COMPONENT format-rev="5" xsi:type="packageTest">
+					<NAME xsi:type="string">ED_CTRL_G0007 (torque control, derating motor temp, dc link volt)</NAME>
+					<ENABLED xsi:type="boolean">True</ENABLED>
+					<REPORTING xsi:type="boolean">True</REPORTING>
+					<ID xsi:type="string">95b2111c933611ec8a59000e6c7023a2</ID>
+					<COMPONENTS/>
+					<PACKAGE-REF format-rev="1" xsi:type="packageRef">
+						<PACKAGE-PATH xsi:type="string">../../generic/ed/ctrl/ED_CTRL_G0007 (torque control, derating motor temp, dc link volt).pkg</PACKAGE-PATH>
+					</PACKAGE-REF>
+				</COMPONENT>
+				<COMPONENT format-rev="5" xsi:type="packageTest">
+					<NAME xsi:type="string">ED_CTRL_G0008 (torque control, derating dc link volt)</NAME>
+					<ENABLED xsi:type="boolean">True</ENABLED>
+					<REPORTING xsi:type="boolean">True</REPORTING>
+					<ID xsi:type="string">95b23822933611ec87f1000e6c7023a2</ID>
+					<COMPONENTS/>
+					<PACKAGE-REF format-rev="1" xsi:type="packageRef">
+						<PACKAGE-PATH xsi:type="string">../../generic/ed/ctrl/ED_CTRL_G0008 (torque control, derating dc link volt).pkg</PACKAGE-PATH>
+					</PACKAGE-REF>
+				</COMPONENT>
+				<COMPONENT format-rev="5" xsi:type="packageTest">
+					<NAME xsi:type="string">ED_CTRL_G0009 (torque control, gradient limitation)</NAME>
+					<ENABLED xsi:type="boolean">True</ENABLED>
+					<REPORTING xsi:type="boolean">True</REPORTING>
+					<ID xsi:type="string">95b23823933611ec8cbd000e6c7023a2</ID>
+					<COMPONENTS/>
+					<PACKAGE-REF format-rev="1" xsi:type="packageRef">
+						<PACKAGE-PATH xsi:type="string">../../generic/ed/ctrl/ED_CTRL_G0009 (torque control, gradient limitation).pkg</PACKAGE-PATH>
+					</PACKAGE-REF>
+				</COMPONENT>
+				<COMPONENT format-rev="5" xsi:type="packageTest">
+					<NAME xsi:type="string">ED_CTRL_G0009 (torque control, startup)</NAME>
+					<ENABLED xsi:type="boolean">True</ENABLED>
+					<REPORTING xsi:type="boolean">True</REPORTING>
+					<ID xsi:type="string">95b23824933611ec8971000e6c7023a2</ID>
+					<COMPONENTS/>
+					<PACKAGE-REF format-rev="1" xsi:type="packageRef">
+						<PACKAGE-PATH xsi:type="string">../../generic/ed/ctrl/ED_CTRL_G0009 (torque control, startup).pkg</PACKAGE-PATH>
+					</PACKAGE-REF>
+				</COMPONENT>
+				<COMPONENT format-rev="5" xsi:type="packageTest">
+					<NAME xsi:type="string">ED_CTRL_G0010 (torque control, active damping)</NAME>
+					<ENABLED xsi:type="boolean">True</ENABLED>
+					<REPORTING xsi:type="boolean">True</REPORTING>
+					<ID xsi:type="string">95b23825933611ecb3c3000e6c7023a2</ID>
+					<COMPONENTS/>
+					<PACKAGE-REF format-rev="1" xsi:type="packageRef">
+						<PACKAGE-PATH xsi:type="string">../../generic/ed/ctrl/ED_CTRL_G0010 (torque control, active damping).pkg</PACKAGE-PATH>
+					</PACKAGE-REF>
+				</COMPONENT>
+				<COMPONENT format-rev="5" xsi:type="packageTest">
+					<NAME xsi:type="string">ED_CTRL_G0011 (torque control, derating speed)</NAME>
+					<ENABLED xsi:type="boolean">True</ENABLED>
+					<REPORTING xsi:type="boolean">True</REPORTING>
+					<ID xsi:type="string">95b25f2e933611ec8b46000e6c7023a2</ID>
+					<COMPONENTS/>
+					<PACKAGE-REF format-rev="1" xsi:type="packageRef">
+						<PACKAGE-PATH xsi:type="string">../../generic/ed/ctrl/ED_CTRL_G0011 (torque control, derating speed).pkg</PACKAGE-PATH>
+					</PACKAGE-REF>
+				</COMPONENT>
+				<COMPONENT format-rev="5" xsi:type="packageTest">
+					<NAME xsi:type="string">ED_CTRL_G0012 (torque control, derating power)</NAME>
+					<ENABLED xsi:type="boolean">True</ENABLED>
+					<REPORTING xsi:type="boolean">True</REPORTING>
+					<ID xsi:type="string">95b25f2f933611ec858f000e6c7023a2</ID>
+					<COMPONENTS/>
+					<PACKAGE-REF format-rev="1" xsi:type="packageRef">
+						<PACKAGE-PATH xsi:type="string">../../generic/ed/ctrl/ED_CTRL_G0012 (torque control, derating power).pkg</PACKAGE-PATH>
+					</PACKAGE-REF>
+				</COMPONENT>
+				<COMPONENT format-rev="5" xsi:type="packageTest">
+					<NAME xsi:type="string">ED_CTRL_G0013 (torque control, invalid request)</NAME>
+					<ENABLED xsi:type="boolean">True</ENABLED>
+					<REPORTING xsi:type="boolean">True</REPORTING>
+					<ID xsi:type="string">95b25f30933611ecad71000e6c7023a2</ID>
+					<COMPONENTS/>
+					<PACKAGE-REF format-rev="1" xsi:type="packageRef">
+						<PACKAGE-PATH xsi:type="string">../../generic/ed/ctrl/ED_CTRL_G0013 (torque control, invalid request).pkg</PACKAGE-PATH>
+					</PACKAGE-REF>
+				</COMPONENT>
+				<COMPONENT format-rev="5" xsi:type="packageTest">
+					<NAME xsi:type="string">ED_CTRL_G0015 (torque control, torque compensation)</NAME>
+					<ENABLED xsi:type="boolean">True</ENABLED>
+					<REPORTING xsi:type="boolean">True</REPORTING>
+					<ID xsi:type="string">95b2863a933611ecbed0000e6c7023a2</ID>
+					<COMPONENTS/>
+					<PACKAGE-REF format-rev="1" xsi:type="packageRef">
+						<PACKAGE-PATH xsi:type="string">../../generic/ed/ctrl/ED_CTRL_G0015 (torque control, torque compensation).pkg</PACKAGE-PATH>
+					</PACKAGE-REF>
+				</COMPONENT>
+				<COMPONENT format-rev="5" xsi:type="packageTest">
+					<NAME xsi:type="string">ED_CTRL_G0016 (torque control, limitation)</NAME>
+					<ENABLED xsi:type="boolean">True</ENABLED>
+					<REPORTING xsi:type="boolean">True</REPORTING>
+					<ID xsi:type="string">95b2863b933611ec81eb000e6c7023a2</ID>
+					<COMPONENTS/>
+					<PACKAGE-REF format-rev="1" xsi:type="packageRef">
+						<PACKAGE-PATH xsi:type="string">../../generic/ed/ctrl/ED_CTRL_G0016 (torque control, limitation).pkg</PACKAGE-PATH>
+					</PACKAGE-REF>
+				</COMPONENT>
+				<COMPONENT format-rev="5" xsi:type="packageTest">
+					<NAME xsi:type="string">ED_CTRL_G0017 (torque control, trq gearbox with gearshift)</NAME>
+					<ENABLED xsi:type="boolean">True</ENABLED>
+					<REPORTING xsi:type="boolean">True</REPORTING>
+					<ID xsi:type="string">95b2863c933611ecb42c000e6c7023a2</ID>
+					<COMPONENTS/>
+					<PACKAGE-REF format-rev="1" xsi:type="packageRef">
+						<PACKAGE-PATH xsi:type="string">../../generic/ed/ctrl/ED_CTRL_G0017 (torque control, trq gearbox with gearshift).pkg</PACKAGE-PATH>
+					</PACKAGE-REF>
+				</COMPONENT>
+				<COMPONENT format-rev="5" xsi:type="packageTest">
+					<NAME xsi:type="string">ED_CTRL_G0201 (fault modes)</NAME>
+					<ENABLED xsi:type="boolean">True</ENABLED>
+					<REPORTING xsi:type="boolean">True</REPORTING>
+					<ID xsi:type="string">ee49297e933611ec9701000e6c7023a2</ID>
+					<COMPONENTS/>
+					<PACKAGE-REF format-rev="1" xsi:type="packageRef">
+						<PACKAGE-PATH xsi:type="string">../../generic/ed/ctrl/ED_CTRL_G0201 (fault modes).pkg</PACKAGE-PATH>
+					</PACKAGE-REF>
+				</COMPONENT>
+				<COMPONENT format-rev="5" xsi:type="packageTest">
+					<NAME xsi:type="string">ED_CTRL_G0202 (active discharge request)</NAME>
+					<ENABLED xsi:type="boolean">True</ENABLED>
+					<REPORTING xsi:type="boolean">True</REPORTING>
+					<ID xsi:type="string">ee49297f933611ec848b000e6c7023a2</ID>
+					<COMPONENTS/>
+					<PACKAGE-REF format-rev="1" xsi:type="packageRef">
+						<PACKAGE-PATH xsi:type="string">../../generic/ed/ctrl/ED_CTRL_G0202 (active discharge request).pkg</PACKAGE-PATH>
+					</PACKAGE-REF>
+				</COMPONENT>
+				<COMPONENT format-rev="5" xsi:type="packageTest">
+					<NAME xsi:type="string">ED_COMP_G0001 (quadrant)</NAME>
+					<ENABLED xsi:type="boolean">True</ENABLED>
+					<REPORTING xsi:type="boolean">True</REPORTING>
+					<ID xsi:type="string">14aaa8ae933a11ecacf7000e6c7023a2</ID>
+					<COMPONENTS/>
+					<PACKAGE-REF format-rev="1" xsi:type="packageRef">
+						<PACKAGE-PATH xsi:type="string">../../generic/ed/comp/ED_COMP_G0001 (quadrant).pkg</PACKAGE-PATH>
+					</PACKAGE-REF>
+				</COMPONENT>
+				<COMPONENT format-rev="5" xsi:type="packageTest">
+					<NAME xsi:type="string">ED_COMP_G0003 (torque limitation)</NAME>
+					<ENABLED xsi:type="boolean">True</ENABLED>
+					<REPORTING xsi:type="boolean">True</REPORTING>
+					<ID xsi:type="string">14aaa8af933a11ec9788000e6c7023a2</ID>
+					<COMPONENTS/>
+					<PACKAGE-REF format-rev="1" xsi:type="packageRef">
+						<PACKAGE-PATH xsi:type="string">../../generic/ed/comp/ED_COMP_G0003 (torque limitation).pkg</PACKAGE-PATH>
+					</PACKAGE-REF>
+				</COMPONENT>
+			</COMPONENTS>
+		</COMPONENT>
+		<COMPONENT format-rev="10" xsi:type="subproject">
+			<NAME xsi:type="string">ed_s</NAME>
+			<ENABLED xsi:type="boolean">True</ENABLED>
+			<REPORTING xsi:type="boolean">True</REPORTING>
+			<ID xsi:type="string">d5e121ee933611ecb7b7000e6c7023a2</ID>
+			<COMPONENTS>
+				<COMPONENT format-rev="5" xsi:type="packageTest">
+					<NAME xsi:type="string">ED_CTRL_S0001 (torque control, axle, smoke)</NAME>
+					<ENABLED xsi:type="boolean">True</ENABLED>
+					<REPORTING xsi:type="boolean">True</REPORTING>
+					<ID xsi:type="string">4932f2fa471111ecaca2000e6c081463</ID>
+					<COMPONENTS/>
+					<PACKAGE-REF format-rev="1" xsi:type="packageRef">
+						<PACKAGE-PATH xsi:type="string">../ed/ctrl/ED_CTRL_S0001 (torque control, axle, smoke).pkg</PACKAGE-PATH>
+					</PACKAGE-REF>
+				</COMPONENT>
+				<COMPONENT format-rev="5" xsi:type="packageTest">
+					<NAME xsi:type="string">ED_CTRL_S0002 (torque control, axle, trq_max)</NAME>
+					<ENABLED xsi:type="boolean">True</ENABLED>
+					<REPORTING xsi:type="boolean">True</REPORTING>
+					<ID xsi:type="string">4932f2fb471111ec9d1e000e6c081463</ID>
+					<COMPONENTS/>
+					<PACKAGE-REF format-rev="1" xsi:type="packageRef">
+						<PACKAGE-PATH xsi:type="string">../ed/ctrl/ED_CTRL_S0002 (torque control, axle, trq_max).pkg</PACKAGE-PATH>
+					</PACKAGE-REF>
+				</COMPONENT>
+			</COMPONENTS>
+		</COMPONENT>
+		<COMPONENT format-rev="10" xsi:type="subproject">
+			<NAME xsi:type="string">ed_dcpl</NAME>
+			<ENABLED xsi:type="boolean">True</ENABLED>
+			<REPORTING xsi:type="boolean">True</REPORTING>
+			<ID xsi:type="string">1040cab4471111eca584000e6c081463</ID>
+			<COMPONENTS>
+				<COMPONENT format-rev="5" xsi:type="packageTest">
+					<NAME xsi:type="string">ED_DCPL_G0001 (couple, decouple, standstill)</NAME>
+					<ENABLED xsi:type="boolean">True</ENABLED>
+					<REPORTING xsi:type="boolean">True</REPORTING>
+					<ID xsi:type="string">1a6a97de471111ecabf6000e6c081463</ID>
+					<COMPONENTS/>
+					<PACKAGE-REF format-rev="1" xsi:type="packageRef">
+						<PACKAGE-PATH xsi:type="string">../../generic/ed/dcpl/ED_DCPL_G0001 (couple, decouple, standstill).pkg</PACKAGE-PATH>
+					</PACKAGE-REF>
+				</COMPONENT>
+				<COMPONENT format-rev="5" xsi:type="packageTest">
+					<NAME xsi:type="string">ED_DCPL_G0002 (couple, decouple, move)</NAME>
+					<ENABLED xsi:type="boolean">True</ENABLED>
+					<REPORTING xsi:type="boolean">True</REPORTING>
+					<ID xsi:type="string">1e1e9ca4933a11ec8651000e6c7023a2</ID>
+					<COMPONENTS/>
+					<PACKAGE-REF format-rev="1" xsi:type="packageRef">
+						<PACKAGE-PATH xsi:type="string">../../generic/ed/dcpl/ED_DCPL_G0002 (couple, decouple, move).pkg</PACKAGE-PATH>
+					</PACKAGE-REF>
+				</COMPONENT>
+				<COMPONENT format-rev="5" xsi:type="packageTest">
+					<NAME xsi:type="string">ED_DCPL_G0011 (torque selection)</NAME>
+					<ENABLED xsi:type="boolean">True</ENABLED>
+					<REPORTING xsi:type="boolean">True</REPORTING>
+					<ID xsi:type="string">3232aeb6933a11ec9871000e6c7023a2</ID>
+					<COMPONENTS/>
+					<PACKAGE-REF format-rev="1" xsi:type="packageRef">
+						<PACKAGE-PATH xsi:type="string">../../generic/ed/dcpl/ED_DCPL_G0011 (torque selection).pkg</PACKAGE-PATH>
+					</PACKAGE-REF>
+				</COMPONENT>
+				<COMPONENT format-rev="5" xsi:type="packageTest">
+					<NAME xsi:type="string">ED_DCPL_G0012 (couple, high load acceleration)</NAME>
+					<ENABLED xsi:type="boolean">True</ENABLED>
+					<REPORTING xsi:type="boolean">True</REPORTING>
+					<ID xsi:type="string">3232d5e8933a11ecbfae000e6c7023a2</ID>
+					<COMPONENTS/>
+					<PACKAGE-REF format-rev="1" xsi:type="packageRef">
+						<PACKAGE-PATH xsi:type="string">../../generic/ed/dcpl/ED_DCPL_G0012 (couple, high load acceleration).pkg</PACKAGE-PATH>
+					</PACKAGE-REF>
+				</COMPONENT>
+				<COMPONENT format-rev="5" xsi:type="packageTest">
+					<NAME xsi:type="string">ED_DCPL_G0013 (couple, invalid sync target)</NAME>
+					<ENABLED xsi:type="boolean">True</ENABLED>
+					<REPORTING xsi:type="boolean">True</REPORTING>
+					<ID xsi:type="string">3232d5e9933a11ec9433000e6c7023a2</ID>
+					<COMPONENTS/>
+					<PACKAGE-REF format-rev="1" xsi:type="packageRef">
+						<PACKAGE-PATH xsi:type="string">../../generic/ed/dcpl/ED_DCPL_G0013 (couple, invalid sync target).pkg</PACKAGE-PATH>
+					</PACKAGE-REF>
+				</COMPONENT>
+				<COMPONENT format-rev="5" xsi:type="packageTest">
+					<NAME xsi:type="string">ED_DCPL_G0014 (target speed calc)</NAME>
+					<ENABLED xsi:type="boolean">True</ENABLED>
+					<REPORTING xsi:type="boolean">True</REPORTING>
+					<ID xsi:type="string">3232d5ea933a11ecab34000e6c7023a2</ID>
+					<COMPONENTS/>
+					<PACKAGE-REF format-rev="1" xsi:type="packageRef">
+						<PACKAGE-PATH xsi:type="string">../../generic/ed/dcpl/ED_DCPL_G0014 (target speed calc).pkg</PACKAGE-PATH>
+					</PACKAGE-REF>
+				</COMPONENT>
+			</COMPONENTS>
+		</COMPONENT>
+		<COMPONENT format-rev="10" xsi:type="subproject">
+			<NAME xsi:type="string">ed_int</NAME>
+			<ENABLED xsi:type="boolean">False</ENABLED>
+			<REPORTING xsi:type="boolean">True</REPORTING>
+			<ID xsi:type="string">40041988933a11eca67d000e6c7023a2</ID>
+			<COMPONENTS>
+				<COMPONENT format-rev="5" xsi:type="packageTest">
+					<NAME xsi:type="string">ED_INT_G0001 (pdyn)</NAME>
+					<ENABLED xsi:type="boolean">True</ENABLED>
+					<REPORTING xsi:type="boolean">True</REPORTING>
+					<ID xsi:type="string">4004b5ba933a11ec9b18000e6c7023a2</ID>
+					<COMPONENTS/>
+					<PACKAGE-REF format-rev="1" xsi:type="packageRef">
+						<PACKAGE-PATH xsi:type="string">../../generic/ed/int/ED_INT_G0001 (pdyn).pkg</PACKAGE-PATH>
+					</PACKAGE-REF>
+				</COMPONENT>
+				<COMPONENT format-rev="5" xsi:type="packageTest">
+					<NAME xsi:type="string">ED_INT_G0002 (nEm)</NAME>
+					<ENABLED xsi:type="boolean">True</ENABLED>
+					<REPORTING xsi:type="boolean">True</REPORTING>
+					<ID xsi:type="string">4004b5bb933a11ec8a5c000e6c7023a2</ID>
+					<COMPONENTS/>
+					<PACKAGE-REF format-rev="1" xsi:type="packageRef">
+						<PACKAGE-PATH xsi:type="string">../../generic/ed/int/ED_INT_G0002 (nEm).pkg</PACKAGE-PATH>
+					</PACKAGE-REF>
+				</COMPONENT>
+				<COMPONENT format-rev="5" xsi:type="packageTest">
+					<NAME xsi:type="string">ED_INT_G0004 (cmdEmReq)</NAME>
+					<ENABLED xsi:type="boolean">True</ENABLED>
+					<REPORTING xsi:type="boolean">True</REPORTING>
+					<ID xsi:type="string">4004b5bc933a11ecb72a000e6c7023a2</ID>
+					<COMPONENTS/>
+					<PACKAGE-REF format-rev="1" xsi:type="packageRef">
+						<PACKAGE-PATH xsi:type="string">../../generic/ed/int/ED_INT_G0004 (cmdEmReq).pkg</PACKAGE-PATH>
+					</PACKAGE-REF>
+				</COMPONENT>
+				<COMPONENT format-rev="5" xsi:type="packageTest">
+					<NAME xsi:type="string">ED_INT_G0005 (trqAuxTrqGb1FricSum) </NAME>
+					<ENABLED xsi:type="boolean">True</ENABLED>
+					<REPORTING xsi:type="boolean">True</REPORTING>
+					<ID xsi:type="string">4004dcc6933a11ecb1e5000e6c7023a2</ID>
+					<COMPONENTS/>
+					<PACKAGE-REF format-rev="1" xsi:type="packageRef">
+						<PACKAGE-PATH xsi:type="string">../../generic/ed/int/ED_INT_G0005 (trqAuxTrqGb1FricSum) .pkg</PACKAGE-PATH>
+					</PACKAGE-REF>
+				</COMPONENT>
+				<COMPONENT format-rev="5" xsi:type="packageTest">
+					<NAME xsi:type="string">ED_INT_G0006 (trqEmAvailMot)</NAME>
+					<ENABLED xsi:type="boolean">True</ENABLED>
+					<REPORTING xsi:type="boolean">True</REPORTING>
+					<ID xsi:type="string">4004dcc7933a11ec98e2000e6c7023a2</ID>
+					<COMPONENTS/>
+					<PACKAGE-REF format-rev="1" xsi:type="packageRef">
+						<PACKAGE-PATH xsi:type="string">../../generic/ed/int/ED_INT_G0006 (trqEmAvailMot).pkg</PACKAGE-PATH>
+					</PACKAGE-REF>
+				</COMPONENT>
+				<COMPONENT format-rev="5" xsi:type="packageTest">
+					<NAME xsi:type="string">ED_INT_G0007 (trqEmAvailMotInt)</NAME>
+					<ENABLED xsi:type="boolean">True</ENABLED>
+					<REPORTING xsi:type="boolean">True</REPORTING>
+					<ID xsi:type="string">4004dcc8933a11ecad8f000e6c7023a2</ID>
+					<COMPONENTS/>
+					<PACKAGE-REF format-rev="1" xsi:type="packageRef">
+						<PACKAGE-PATH xsi:type="string">../../generic/ed/int/ED_INT_G0007 (trqEmAvailMotInt).pkg</PACKAGE-PATH>
+					</PACKAGE-REF>
+				</COMPONENT>
+				<COMPONENT format-rev="5" xsi:type="packageTest">
+					<NAME xsi:type="string">ED_INT_G0008 (trqAvailGenEm)</NAME>
+					<ENABLED xsi:type="boolean">True</ENABLED>
+					<REPORTING xsi:type="boolean">True</REPORTING>
+					<ID xsi:type="string">4004dcc9933a11ecb5e3000e6c7023a2</ID>
+					<COMPONENTS/>
+					<PACKAGE-REF format-rev="1" xsi:type="packageRef">
+						<PACKAGE-PATH xsi:type="string">../../generic/ed/int/ED_INT_G0008 (trqAvailGenEm).pkg</PACKAGE-PATH>
+					</PACKAGE-REF>
+				</COMPONENT>
+				<COMPONENT format-rev="5" xsi:type="packageTest">
+					<NAME xsi:type="string">ED_INT_G0009 (trqGbMot)</NAME>
+					<ENABLED xsi:type="boolean">True</ENABLED>
+					<REPORTING xsi:type="boolean">True</REPORTING>
+					<ID xsi:type="string">400503d2933a11ec9514000e6c7023a2</ID>
+					<COMPONENTS/>
+					<PACKAGE-REF format-rev="1" xsi:type="packageRef">
+						<PACKAGE-PATH xsi:type="string">../../generic/ed/int/ED_INT_G0009 (trqGbMot).pkg</PACKAGE-PATH>
+					</PACKAGE-REF>
+				</COMPONENT>
+				<COMPONENT format-rev="5" xsi:type="packageTest">
+					<NAME xsi:type="string">ED_INT_G0010 (trqGbGen)</NAME>
+					<ENABLED xsi:type="boolean">True</ENABLED>
+					<REPORTING xsi:type="boolean">True</REPORTING>
+					<ID xsi:type="string">400503d3933a11ecafe8000e6c7023a2</ID>
+					<COMPONENTS/>
+					<PACKAGE-REF format-rev="1" xsi:type="packageRef">
+						<PACKAGE-PATH xsi:type="string">../../generic/ed/int/ED_INT_G0010 (trqGbGen).pkg</PACKAGE-PATH>
+					</PACKAGE-REF>
+				</COMPONENT>
+				<COMPONENT format-rev="5" xsi:type="packageTest">
+					<NAME xsi:type="string">ED_INT_G0011 (trqEmReq)</NAME>
+					<ENABLED xsi:type="boolean">True</ENABLED>
+					<REPORTING xsi:type="boolean">True</REPORTING>
+					<ID xsi:type="string">400503d4933a11ecbd0c000e6c7023a2</ID>
+					<COMPONENTS/>
+					<PACKAGE-REF format-rev="1" xsi:type="packageRef">
+						<PACKAGE-PATH xsi:type="string">../../generic/ed/int/ED_INT_G0011 (trqEmReq).pkg</PACKAGE-PATH>
+					</PACKAGE-REF>
+				</COMPONENT>
+				<COMPONENT format-rev="5" xsi:type="packageTest">
+					<NAME xsi:type="string">ED_INT_G0012 (cmdBckUpFcn)</NAME>
+					<ENABLED xsi:type="boolean">True</ENABLED>
+					<REPORTING xsi:type="boolean">True</REPORTING>
+					<ID xsi:type="string">400503d5933a11ec8673000e6c7023a2</ID>
+					<COMPONENTS/>
+					<PACKAGE-REF format-rev="1" xsi:type="packageRef">
+						<PACKAGE-PATH xsi:type="string">../../generic/ed/int/ED_INT_G0012 (cmdBckUpFcn).pkg</PACKAGE-PATH>
+					</PACKAGE-REF>
+				</COMPONENT>
+				<COMPONENT format-rev="5" xsi:type="packageTest">
+					<NAME xsi:type="string">ED_INT_G0013 (trqEmAvailGenInt)</NAME>
+					<ENABLED xsi:type="boolean">True</ENABLED>
+					<REPORTING xsi:type="boolean">True</REPORTING>
+					<ID xsi:type="string">400503d6933a11ec8c9d000e6c7023a2</ID>
+					<COMPONENTS/>
+					<PACKAGE-REF format-rev="1" xsi:type="packageRef">
+						<PACKAGE-PATH xsi:type="string">../../generic/ed/int/ED_INT_G0013 (trqEmAvailGenInt).pkg</PACKAGE-PATH>
+					</PACKAGE-REF>
+				</COMPONENT>
+				<COMPONENT format-rev="5" xsi:type="packageTest">
+					<NAME xsi:type="string">ED_INT_G0014 (stQuadrant)</NAME>
+					<ENABLED xsi:type="boolean">True</ENABLED>
+					<REPORTING xsi:type="boolean">True</REPORTING>
+					<ID xsi:type="string">40052ada933a11ec9605000e6c7023a2</ID>
+					<COMPONENTS/>
+					<PACKAGE-REF format-rev="1" xsi:type="packageRef">
+						<PACKAGE-PATH xsi:type="string">../../generic/ed/int/ED_INT_G0014 (stQuadrant).pkg</PACKAGE-PATH>
+					</PACKAGE-REF>
+				</COMPONENT>
+				<COMPONENT format-rev="5" xsi:type="packageTest">
+					<NAME xsi:type="string">ED_INT_G0015 (uPwrNetLimLowrReq_uPwrNetLimUprReq)</NAME>
+					<ENABLED xsi:type="boolean">True</ENABLED>
+					<REPORTING xsi:type="boolean">True</REPORTING>
+					<ID xsi:type="string">40052adb933a11ecb560000e6c7023a2</ID>
+					<COMPONENTS/>
+					<PACKAGE-REF format-rev="1" xsi:type="packageRef">
+						<PACKAGE-PATH xsi:type="string">../../generic/ed/int/ED_INT_G0015 (uPwrNetLimLowrReq_uPwrNetLimUprReq).pkg</PACKAGE-PATH>
+					</PACKAGE-REF>
+				</COMPONENT>
+				<COMPONENT format-rev="5" xsi:type="packageTest">
+					<NAME xsi:type="string">ED_INT_G0016 (nReqSpdCtrl)</NAME>
+					<ENABLED xsi:type="boolean">True</ENABLED>
+					<REPORTING xsi:type="boolean">True</REPORTING>
+					<ID xsi:type="string">400551ee933a11ecb9a7000e6c7023a2</ID>
+					<COMPONENTS/>
+					<PACKAGE-REF format-rev="1" xsi:type="packageRef">
+						<PACKAGE-PATH xsi:type="string">../../generic/ed/int/ED_INT_G0016 (nReqSpdCtrl).pkg</PACKAGE-PATH>
+					</PACKAGE-REF>
+				</COMPONENT>
+				<COMPONENT format-rev="5" xsi:type="packageTest">
+					<NAME xsi:type="string">ED_INT_G0017 (trqAvailMotDS)</NAME>
+					<ENABLED xsi:type="boolean">True</ENABLED>
+					<REPORTING xsi:type="boolean">True</REPORTING>
+					<ID xsi:type="string">400551ef933a11ecb6ab000e6c7023a2</ID>
+					<COMPONENTS/>
+					<PACKAGE-REF format-rev="1" xsi:type="packageRef">
+						<PACKAGE-PATH xsi:type="string">../../generic/ed/int/ED_INT_G0017 (trqAvailMotDS).pkg</PACKAGE-PATH>
+					</PACKAGE-REF>
+				</COMPONENT>
+				<COMPONENT format-rev="5" xsi:type="packageTest">
+					<NAME xsi:type="string">ED_INT_G0018 (trqAvailGenDS)</NAME>
+					<ENABLED xsi:type="boolean">True</ENABLED>
+					<REPORTING xsi:type="boolean">True</REPORTING>
+					<ID xsi:type="string">400551f0933a11ec932d000e6c7023a2</ID>
+					<COMPONENTS/>
+					<PACKAGE-REF format-rev="1" xsi:type="packageRef">
+						<PACKAGE-PATH xsi:type="string">../../generic/ed/int/ED_INT_G0018 (trqAvailGenDS).pkg</PACKAGE-PATH>
+					</PACKAGE-REF>
+				</COMPONENT>
+				<COMPONENT format-rev="5" xsi:type="packageTest">
+					<NAME xsi:type="string">ED_INT_G0019 (trqDsReqMin_trqDsReqMax)</NAME>
+					<ENABLED xsi:type="boolean">True</ENABLED>
+					<REPORTING xsi:type="boolean">True</REPORTING>
+					<ID xsi:type="string">400551f1933a11ec8771000e6c7023a2</ID>
+					<COMPONENTS/>
+					<PACKAGE-REF format-rev="1" xsi:type="packageRef">
+						<PACKAGE-PATH xsi:type="string">../../generic/ed/int/ED_INT_G0019 (trqDsReqMin_trqDsReqMax).pkg</PACKAGE-PATH>
+					</PACKAGE-REF>
+				</COMPONENT>
+				<COMPONENT format-rev="5" xsi:type="packageTest">
+					<NAME xsi:type="string">ED_INT_G0020 (trqMinSpdCtrl)</NAME>
+					<ENABLED xsi:type="boolean">True</ENABLED>
+					<REPORTING xsi:type="boolean">True</REPORTING>
+					<ID xsi:type="string">400578e4933a11ecbbc0000e6c7023a2</ID>
+					<COMPONENTS/>
+					<PACKAGE-REF format-rev="1" xsi:type="packageRef">
+						<PACKAGE-PATH xsi:type="string">../../generic/ed/int/ED_INT_G0020 (trqMinSpdCtrl).pkg</PACKAGE-PATH>
+					</PACKAGE-REF>
+				</COMPONENT>
+				<COMPONENT format-rev="5" xsi:type="packageTest">
+					<NAME xsi:type="string">ED_INT_G0021 (trqMaxSpdCtrl)</NAME>
+					<ENABLED xsi:type="boolean">True</ENABLED>
+					<REPORTING xsi:type="boolean">True</REPORTING>
+					<ID xsi:type="string">400578e5933a11ecbef9000e6c7023a2</ID>
+					<COMPONENTS/>
+					<PACKAGE-REF format-rev="1" xsi:type="packageRef">
+						<PACKAGE-PATH xsi:type="string">../../generic/ed/int/ED_INT_G0021 (trqMaxSpdCtrl).pkg</PACKAGE-PATH>
+					</PACKAGE-REF>
+				</COMPONENT>
+				<COMPONENT format-rev="5" xsi:type="packageTest">
+					<NAME xsi:type="string">ED_INT_G0022 (reqState)</NAME>
+					<ENABLED xsi:type="boolean">True</ENABLED>
+					<REPORTING xsi:type="boolean">True</REPORTING>
+					<ID xsi:type="string">400578e6933a11ecb52b000e6c7023a2</ID>
+					<COMPONENTS/>
+					<PACKAGE-REF format-rev="1" xsi:type="packageRef">
+						<PACKAGE-PATH xsi:type="string">../../generic/ed/int/ED_INT_G0022 (reqState).pkg</PACKAGE-PATH>
+					</PACKAGE-REF>
+				</COMPONENT>
+				<COMPONENT format-rev="5" xsi:type="packageTest">
+					<NAME xsi:type="string">ED_INT_G0023 (enActDmp)</NAME>
+					<ENABLED xsi:type="boolean">True</ENABLED>
+					<REPORTING xsi:type="boolean">True</REPORTING>
+					<ID xsi:type="string">400578e7933a11eca197000e6c7023a2</ID>
+					<COMPONENTS/>
+					<PACKAGE-REF format-rev="1" xsi:type="packageRef">
+						<PACKAGE-PATH xsi:type="string">../../generic/ed/int/ED_INT_G0023 (enActDmp).pkg</PACKAGE-PATH>
+					</PACKAGE-REF>
+				</COMPONENT>
+				<COMPONENT format-rev="5" xsi:type="packageTest">
+					<NAME xsi:type="string">ED_INT_G0024 (trqEm)</NAME>
+					<ENABLED xsi:type="boolean">True</ENABLED>
+					<REPORTING xsi:type="boolean">True</REPORTING>
+					<ID xsi:type="string">400578e8933a11ec9e8d000e6c7023a2</ID>
+					<COMPONENTS/>
+					<PACKAGE-REF format-rev="1" xsi:type="packageRef">
+						<PACKAGE-PATH xsi:type="string">../../generic/ed/int/ED_INT_G0024 (trqEm).pkg</PACKAGE-PATH>
+					</PACKAGE-REF>
+				</COMPONENT>
+				<COMPONENT format-rev="5" xsi:type="packageTest">
+					<NAME xsi:type="string">ED_INT_G0025 (ratGbSysToEm_ratGbEmToSys)</NAME>
+					<ENABLED xsi:type="boolean">True</ENABLED>
+					<REPORTING xsi:type="boolean">True</REPORTING>
+					<ID xsi:type="string">40059fec933a11eca76b000e6c7023a2</ID>
+					<COMPONENTS/>
+					<PACKAGE-REF format-rev="1" xsi:type="packageRef">
+						<PACKAGE-PATH xsi:type="string">../../generic/ed/int/ED_INT_G0025 (ratGbSysToEm_ratGbEmToSys).pkg</PACKAGE-PATH>
+					</PACKAGE-REF>
+				</COMPONENT>
+				<COMPONENT format-rev="5" xsi:type="packageTest">
+					<NAME xsi:type="string">ED_INT_G0026 (tAbsolute)</NAME>
+					<ENABLED xsi:type="boolean">True</ENABLED>
+					<REPORTING xsi:type="boolean">True</REPORTING>
+					<ID xsi:type="string">40059fed933a11ec86fa000e6c7023a2</ID>
+					<COMPONENTS/>
+					<PACKAGE-REF format-rev="1" xsi:type="packageRef">
+						<PACKAGE-PATH xsi:type="string">../../generic/ed/int/ED_INT_G0026 (tAbsolute).pkg</PACKAGE-PATH>
+					</PACKAGE-REF>
+				</COMPONENT>
+				<COMPONENT format-rev="5" xsi:type="packageTest">
+					<NAME xsi:type="string">ED_INT_G0027 (trqPIControl)</NAME>
+					<ENABLED xsi:type="boolean">True</ENABLED>
+					<REPORTING xsi:type="boolean">True</REPORTING>
+					<ID xsi:type="string">40059fee933a11ec80c2000e6c7023a2</ID>
+					<COMPONENTS/>
+					<PACKAGE-REF format-rev="1" xsi:type="packageRef">
+						<PACKAGE-PATH xsi:type="string">../../generic/ed/int/ED_INT_G0027 (trqPIControl).pkg</PACKAGE-PATH>
+					</PACKAGE-REF>
+				</COMPONENT>
+				<COMPONENT format-rev="5" xsi:type="packageTest">
+					<NAME xsi:type="string">ED_INT_G0028 (trqActDS)</NAME>
+					<ENABLED xsi:type="boolean">True</ENABLED>
+					<REPORTING xsi:type="boolean">True</REPORTING>
+					<ID xsi:type="string">40059fef933a11ec928b000e6c7023a2</ID>
+					<COMPONENTS/>
+					<PACKAGE-REF format-rev="1" xsi:type="packageRef">
+						<PACKAGE-PATH xsi:type="string">../../generic/ed/int/ED_INT_G0028 (trqActDS).pkg</PACKAGE-PATH>
+					</PACKAGE-REF>
+				</COMPONENT>
+				<COMPONENT format-rev="5" xsi:type="packageTest">
+					<NAME xsi:type="string">ED_INT_G0029 (vVeh)</NAME>
+					<ENABLED xsi:type="boolean">True</ENABLED>
+					<REPORTING xsi:type="boolean">True</REPORTING>
+					<ID xsi:type="string">4005c6f4933a11ec8319000e6c7023a2</ID>
+					<COMPONENTS/>
+					<PACKAGE-REF format-rev="1" xsi:type="packageRef">
+						<PACKAGE-PATH xsi:type="string">../../generic/ed/int/ED_INT_G0029 (vVeh).pkg</PACKAGE-PATH>
+					</PACKAGE-REF>
+				</COMPONENT>
+				<COMPONENT format-rev="5" xsi:type="packageTest">
+					<NAME xsi:type="string">ED_INT_G0030 (trqDragMS)</NAME>
+					<ENABLED xsi:type="boolean">True</ENABLED>
+					<REPORTING xsi:type="boolean">True</REPORTING>
+					<ID xsi:type="string">4005c6f5933a11ecbdaf000e6c7023a2</ID>
+					<COMPONENTS/>
+					<PACKAGE-REF format-rev="1" xsi:type="packageRef">
+						<PACKAGE-PATH xsi:type="string">../../generic/ed/int/ED_INT_G0030 (trqDragMS).pkg</PACKAGE-PATH>
+					</PACKAGE-REF>
+				</COMPONENT>
+				<COMPONENT format-rev="5" xsi:type="packageTest">
+					<NAME xsi:type="string">ED_INT_G0031 (trqDsReq)</NAME>
+					<ENABLED xsi:type="boolean">True</ENABLED>
+					<REPORTING xsi:type="boolean">True</REPORTING>
+					<ID xsi:type="string">4005c6f6933a11ec92c2000e6c7023a2</ID>
+					<COMPONENTS/>
+					<PACKAGE-REF format-rev="1" xsi:type="packageRef">
+						<PACKAGE-PATH xsi:type="string">../../generic/ed/int/ED_INT_G0031 (trqDsReq).pkg</PACKAGE-PATH>
+					</PACKAGE-REF>
+				</COMPONENT>
+			</COMPONENTS>
+		</COMPONENT>
+		<COMPONENT format-rev="10" xsi:type="subproject">
+			<NAME xsi:type="string">daicon</NAME>
+			<ENABLED xsi:type="boolean">True</ENABLED>
+			<REPORTING xsi:type="boolean">True</REPORTING>
+			<ID xsi:type="string">3b9c08f0471111ec8683000e6c081463</ID>
+			<COMPONENTS>
+				<COMPONENT format-rev="5" xsi:type="packageTest">
+					<NAME xsi:type="string">DAICON_S0001 (Straight driving with split situation, scal)</NAME>
+					<ENABLED xsi:type="boolean">True</ENABLED>
+					<REPORTING xsi:type="boolean">True</REPORTING>
+					<ID xsi:type="string">e1d0dc9ea14411ec8746000e6c081463</ID>
+					<COMPONENTS/>
+					<PACKAGE-REF format-rev="1" xsi:type="packageRef">
+						<PACKAGE-PATH xsi:type="string">../daicon/DAICON_S0001 (Straight driving with split situation, scal).pkg</PACKAGE-PATH>
+					</PACKAGE-REF>
+				</COMPONENT>
+				<COMPONENT format-rev="5" xsi:type="packageTest">
+					<NAME xsi:type="string">DAICON_S0004 (Battery Voltage and Current limitations, scal)</NAME>
+					<ENABLED xsi:type="boolean">True</ENABLED>
+					<REPORTING xsi:type="boolean">True</REPORTING>
+					<ID xsi:type="string">e1d0dc9fa14411ec8b84000e6c081463</ID>
+					<COMPONENTS/>
+					<PACKAGE-REF format-rev="1" xsi:type="packageRef">
+						<PACKAGE-PATH xsi:type="string">../daicon/DAICON_S0004 (Battery Voltage and Current limitations, scal).pkg</PACKAGE-PATH>
+					</PACKAGE-REF>
+				</COMPONENT>
+				<COMPONENT format-rev="5" xsi:type="packageTest">
+					<NAME xsi:type="string">DAICON_S0007 (IABS)</NAME>
+					<ENABLED xsi:type="boolean">True</ENABLED>
+					<REPORTING xsi:type="boolean">True</REPORTING>
+					<ID xsi:type="string">61e84e30933a11ec9af1000e6c7023a2</ID>
+					<COMPONENTS/>
+					<PACKAGE-REF format-rev="1" xsi:type="packageRef">
+						<PACKAGE-PATH xsi:type="string">../daicon/DAICON_S0007 (IABS).pkg</PACKAGE-PATH>
+					</PACKAGE-REF>
+				</COMPONENT>
+				<COMPONENT format-rev="5" xsi:type="packageTest">
+					<NAME xsi:type="string">DAICON_S0008 (ITCS)</NAME>
+					<ENABLED xsi:type="boolean">True</ENABLED>
+					<REPORTING xsi:type="boolean">True</REPORTING>
+					<ID xsi:type="string">e543869aa14411eca725000e6c081463</ID>
+					<COMPONENTS/>
+					<PACKAGE-REF format-rev="1" xsi:type="packageRef">
+						<PACKAGE-PATH xsi:type="string">../daicon/DAICON_S0008 (ITCS).pkg</PACKAGE-PATH>
+					</PACKAGE-REF>
+				</COMPONENT>
+				<COMPONENT format-rev="5" xsi:type="packageTest">
+					<NAME xsi:type="string">DAICON_S1001 (torque control, axle, trq_max)</NAME>
+					<ENABLED xsi:type="boolean">True</ENABLED>
+					<REPORTING xsi:type="boolean">True</REPORTING>
+					<ID xsi:type="string">3b9c08f2471111ecb1df000e6c081463</ID>
+					<COMPONENTS/>
+					<PACKAGE-REF format-rev="1" xsi:type="packageRef">
+						<PACKAGE-PATH xsi:type="string">../daicon/DAICON_S1001 (torque control, axle, trq_max).pkg</PACKAGE-PATH>
+					</PACKAGE-REF>
+				</COMPONENT>
+			</COMPONENTS>
+		</COMPONENT>
+		<COMPONENT format-rev="10" xsi:type="subproject">
+			<NAME xsi:type="string">si</NAME>
+			<ENABLED xsi:type="boolean">True</ENABLED>
+			<REPORTING xsi:type="boolean">True</REPORTING>
+			<ID xsi:type="string">513f32a4471111ec9ef5000e6c081463</ID>
+			<COMPONENTS>
+				<COMPONENT format-rev="5" xsi:type="packageTest">
+					<NAME xsi:type="string">SI_S0004 (wheel speed em based)</NAME>
+					<ENABLED xsi:type="boolean">True</ENABLED>
+					<REPORTING xsi:type="boolean">True</REPORTING>
+					<ID xsi:type="string">57d44d58471111ec854d000e6c081463</ID>
+					<COMPONENTS/>
+					<PACKAGE-REF format-rev="1" xsi:type="packageRef">
+						<PACKAGE-PATH xsi:type="string">../si/SI_S0004 (wheel speed em based).pkg</PACKAGE-PATH>
+					</PACKAGE-REF>
+				</COMPONENT>
+				<COMPONENT format-rev="5" xsi:type="packageTest">
+					<NAME xsi:type="string">SI_S0006 (oil temperature)</NAME>
+					<ENABLED xsi:type="boolean">True</ENABLED>
+					<REPORTING xsi:type="boolean">True</REPORTING>
+					<ID xsi:type="string">5aeedaf6471111ecb38e000e6c081463</ID>
+					<COMPONENTS/>
+					<PACKAGE-REF format-rev="1" xsi:type="packageRef">
+						<PACKAGE-PATH xsi:type="string">../si/SI_S0006 (oil temperature).pkg</PACKAGE-PATH>
+					</PACKAGE-REF>
+				</COMPONENT>
+			</COMPONENTS>
+		</COMPONENT>
+		<COMPONENT format-rev="10" xsi:type="subproject">
+			<NAME xsi:type="string">pa</NAME>
+			<ENABLED xsi:type="boolean">True</ENABLED>
+			<REPORTING xsi:type="boolean">True</REPORTING>
+			<ID xsi:type="string">fdc50f6c933911ecba44000e6c7023a2</ID>
+			<COMPONENTS>
+				<COMPONENT format-rev="5" xsi:type="packageTest">
+					<NAME xsi:type="string">PA_DIAG_G0001 (hsv error, angle)</NAME>
+					<ENABLED xsi:type="boolean">True</ENABLED>
+					<REPORTING xsi:type="boolean">True</REPORTING>
+					<ID xsi:type="string">8026878a933a11ecbbe9000e6c7023a2</ID>
+					<COMPONENTS/>
+					<PACKAGE-REF format-rev="1" xsi:type="packageRef">
+						<PACKAGE-PATH xsi:type="string">../../generic/pa/diag/PA_DIAG_G0001 (hsv error, angle).pkg</PACKAGE-PATH>
+					</PACKAGE-REF>
+				</COMPONENT>
+				<COMPONENT format-rev="5" xsi:type="packageTest">
+					<NAME xsi:type="string">PA_DIAG_G0002 (hsv error, timeout)</NAME>
+					<ENABLED xsi:type="boolean">True</ENABLED>
+					<REPORTING xsi:type="boolean">True</REPORTING>
+					<ID xsi:type="string">8026ae92933a11ecab92000e6c7023a2</ID>
+					<COMPONENTS/>
+					<PACKAGE-REF format-rev="1" xsi:type="packageRef">
+						<PACKAGE-PATH xsi:type="string">../../generic/pa/diag/PA_DIAG_G0002 (hsv error, timeout).pkg</PACKAGE-PATH>
+					</PACKAGE-REF>
+				</COMPONENT>
+				<COMPONENT format-rev="5" xsi:type="packageTest">
+					<NAME xsi:type="string">PA_DIAG_G0010 (actuator stuck, shift to N)</NAME>
+					<ENABLED xsi:type="boolean">True</ENABLED>
+					<REPORTING xsi:type="boolean">True</REPORTING>
+					<ID xsi:type="string">8026ae93933a11ecbee8000e6c7023a2</ID>
+					<COMPONENTS/>
+					<PACKAGE-REF format-rev="1" xsi:type="packageRef">
+						<PACKAGE-PATH xsi:type="string">../../generic/pa/diag/PA_DIAG_G0010 (actuator stuck, shift to N).pkg</PACKAGE-PATH>
+					</PACKAGE-REF>
+				</COMPONENT>
+				<COMPONENT format-rev="5" xsi:type="packageTest">
+					<NAME xsi:type="string">PA_DIAG_G0011 (actuator stuck, shift to D1)</NAME>
+					<ENABLED xsi:type="boolean">True</ENABLED>
+					<REPORTING xsi:type="boolean">True</REPORTING>
+					<ID xsi:type="string">8026ae94933a11ecb425000e6c7023a2</ID>
+					<COMPONENTS/>
+					<PACKAGE-REF format-rev="1" xsi:type="packageRef">
+						<PACKAGE-PATH xsi:type="string">../../generic/pa/diag/PA_DIAG_G0011 (actuator stuck, shift to D1).pkg</PACKAGE-PATH>
+					</PACKAGE-REF>
+				</COMPONENT>
+				<COMPONENT format-rev="5" xsi:type="packageTest">
+					<NAME xsi:type="string">PA_DIAG_G0012 (actuator stuck, shift to D2)</NAME>
+					<ENABLED xsi:type="boolean">True</ENABLED>
+					<REPORTING xsi:type="boolean">True</REPORTING>
+					<ID xsi:type="string">8026ae95933a11ecacca000e6c7023a2</ID>
+					<COMPONENTS/>
+					<PACKAGE-REF format-rev="1" xsi:type="packageRef">
+						<PACKAGE-PATH xsi:type="string">../../generic/pa/diag/PA_DIAG_G0012 (actuator stuck, shift to D2).pkg</PACKAGE-PATH>
+					</PACKAGE-REF>
+				</COMPONENT>
+				<COMPONENT format-rev="5" xsi:type="packageTest">
+					<NAME xsi:type="string">PA_SERV_JOB_GA_G0001 (gear actuation)</NAME>
+					<ENABLED xsi:type="boolean">True</ENABLED>
+					<REPORTING xsi:type="boolean">True</REPORTING>
+					<ID xsi:type="string">8c173c86933a11ecb522000e6c7023a2</ID>
+					<COMPONENTS/>
+					<PACKAGE-REF format-rev="1" xsi:type="packageRef">
+						<PACKAGE-PATH xsi:type="string">../../generic/pa/serv_job/ga/PA_SERV_JOB_GA_G0001 (gear actuation).pkg</PACKAGE-PATH>
+					</PACKAGE-REF>
+				</COMPONENT>
+			</COMPONENTS>
+		</COMPONENT>
+		<COMPONENT format-rev="10" xsi:type="subproject">
+			<NAME xsi:type="string">ps</NAME>
+			<ENABLED xsi:type="boolean">True</ENABLED>
+			<REPORTING xsi:type="boolean">True</REPORTING>
+			<ID xsi:type="string">9509dc4a933a11ec9980000e6c7023a2</ID>
+			<COMPONENTS>
+				<COMPONENT format-rev="5" xsi:type="packageTest">
+					<NAME xsi:type="string">PS_DIAG_G0001 (implausible fork position)</NAME>
+					<ENABLED xsi:type="boolean">True</ENABLED>
+					<REPORTING xsi:type="boolean">True</REPORTING>
+					<ID xsi:type="string">ac1e6406933a11ec9a4e000e6c7023a2</ID>
+					<COMPONENTS/>
+					<PACKAGE-REF format-rev="1" xsi:type="packageRef">
+						<PACKAGE-PATH xsi:type="string">../../generic/ps/diag/PS_DIAG_G0001 (implausible fork position).pkg</PACKAGE-PATH>
+					</PACKAGE-REF>
+				</COMPONENT>
+				<COMPONENT format-rev="5" xsi:type="packageTest">
+					<NAME xsi:type="string">PS_DIAG_G0001 (phi offset error)</NAME>
+					<ENABLED xsi:type="boolean">True</ENABLED>
+					<REPORTING xsi:type="boolean">True</REPORTING>
+					<ID xsi:type="string">ac1e6407933a11ecb3b8000e6c7023a2</ID>
+					<COMPONENTS/>
+					<PACKAGE-REF format-rev="1" xsi:type="packageRef">
+						<PACKAGE-PATH xsi:type="string">../../generic/ps/diag/PS_DIAG_G0001 (phi offset error).pkg</PACKAGE-PATH>
+					</PACKAGE-REF>
+				</COMPONENT>
+				<COMPONENT format-rev="5" xsi:type="packageTest">
+					<NAME xsi:type="string">PS_DIAG_G0002 (implausible fork position, low range)</NAME>
+					<ENABLED xsi:type="boolean">True</ENABLED>
+					<REPORTING xsi:type="boolean">True</REPORTING>
+					<ID xsi:type="string">ac1e6408933a11ec92eb000e6c7023a2</ID>
+					<COMPONENTS/>
+					<PACKAGE-REF format-rev="1" xsi:type="packageRef">
+						<PACKAGE-PATH xsi:type="string">../../generic/ps/diag/PS_DIAG_G0002 (implausible fork position, low range).pkg</PACKAGE-PATH>
+					</PACKAGE-REF>
+				</COMPONENT>
+				<COMPONENT format-rev="5" xsi:type="packageTest">
+					<NAME xsi:type="string">PS_DIAG_G0003 (implausible fork position, invalid nMainShaft)</NAME>
+					<ENABLED xsi:type="boolean">True</ENABLED>
+					<REPORTING xsi:type="boolean">True</REPORTING>
+					<ID xsi:type="string">ac1e6409933a11eca863000e6c7023a2</ID>
+					<COMPONENTS/>
+					<PACKAGE-REF format-rev="1" xsi:type="packageRef">
+						<PACKAGE-PATH xsi:type="string">../../generic/ps/diag/PS_DIAG_G0003 (implausible fork position, invalid nMainShaft).pkg</PACKAGE-PATH>
+					</PACKAGE-REF>
+				</COMPONENT>
+				<COMPONENT format-rev="5" xsi:type="packageTest">
+					<NAME xsi:type="string">PS_DIAG_G0010 (gear verification error)</NAME>
+					<ENABLED xsi:type="boolean">True</ENABLED>
+					<REPORTING xsi:type="boolean">True</REPORTING>
+					<ID xsi:type="string">ac1e8b12933a11ecae2c000e6c7023a2</ID>
+					<COMPONENTS/>
+					<PACKAGE-REF format-rev="1" xsi:type="packageRef">
+						<PACKAGE-PATH xsi:type="string">../../generic/ps/diag/PS_DIAG_G0010 (gear verification error).pkg</PACKAGE-PATH>
+					</PACKAGE-REF>
+				</COMPONENT>
+				<COMPONENT format-rev="5" xsi:type="packageTest">
+					<NAME xsi:type="string">PS_PHI_DIAG_G0001 (phi offset error)</NAME>
+					<ENABLED xsi:type="boolean">True</ENABLED>
+					<REPORTING xsi:type="boolean">True</REPORTING>
+					<ID xsi:type="string">b2c6dca4933a11ecb7c4000e6c7023a2</ID>
+					<COMPONENTS/>
+					<PACKAGE-REF format-rev="1" xsi:type="packageRef">
+						<PACKAGE-PATH xsi:type="string">../../generic/ps/phi/diag/PS_PHI_DIAG_G0001 (phi offset error).pkg</PACKAGE-PATH>
+					</PACKAGE-REF>
+				</COMPONENT>
+				<COMPONENT format-rev="5" xsi:type="packageTest">
+					<NAME xsi:type="string">PS_PHI_DIAG_G0010 (pos control error)</NAME>
+					<ENABLED xsi:type="boolean">True</ENABLED>
+					<REPORTING xsi:type="boolean">True</REPORTING>
+					<ID xsi:type="string">b2c703a4933a11ec92ec000e6c7023a2</ID>
+					<COMPONENTS/>
+					<PACKAGE-REF format-rev="1" xsi:type="packageRef">
+						<PACKAGE-PATH xsi:type="string">../../generic/ps/phi/diag/PS_PHI_DIAG_G0010 (pos control error).pkg</PACKAGE-PATH>
+					</PACKAGE-REF>
+				</COMPONENT>
+			</COMPONENTS>
+		</COMPONENT>
+		<COMPONENT format-rev="10" xsi:type="subproject">
+			<NAME xsi:type="string">common</NAME>
+			<ENABLED xsi:type="boolean">True</ENABLED>
+			<REPORTING xsi:type="boolean">True</REPORTING>
+			<ID xsi:type="string">d8ce8e3e933a11ecb7ab000e6c7023a2</ID>
+			<COMPONENTS>
+				<COMPONENT format-rev="5" xsi:type="packageTest">
+					<NAME xsi:type="string">COMMON_S0001 (versions)</NAME>
+					<ENABLED xsi:type="boolean">True</ENABLED>
+					<REPORTING xsi:type="boolean">True</REPORTING>
+					<ID xsi:type="string">724a68e6a93d11ec9e8b000e6c081463</ID>
+					<COMPONENTS/>
+					<PACKAGE-REF format-rev="1" xsi:type="packageRef">
+						<PACKAGE-PATH xsi:type="string">../common/COMMON_S0001 (versions).pkg</PACKAGE-PATH>
+					</PACKAGE-REF>
+				</COMPONENT>
+				<COMPONENT format-rev="5" xsi:type="packageTest">
+					<NAME xsi:type="string">COMMON_EG_S0001 (torque at high speed gradient)</NAME>
+					<ENABLED xsi:type="boolean">True</ENABLED>
+					<REPORTING xsi:type="boolean">True</REPORTING>
+					<ID xsi:type="string">79667ce6a93d11ec9f9f000e6c081463</ID>
+					<COMPONENTS/>
+					<PACKAGE-REF format-rev="1" xsi:type="packageRef">
+						<PACKAGE-PATH xsi:type="string">../common/eg/COMMON_EG_S0001 (torque at high speed gradient).pkg</PACKAGE-PATH>
+					</PACKAGE-REF>
+				</COMPONENT>
+				<COMPONENT format-rev="5" xsi:type="packageTest">
+					<NAME xsi:type="string">COMMON_DIAG_S0001 (bus off)</NAME>
+					<ENABLED xsi:type="boolean">True</ENABLED>
+					<REPORTING xsi:type="boolean">True</REPORTING>
+					<ID xsi:type="string">e29d058a933a11ecbb61000e6c7023a2</ID>
+					<COMPONENTS/>
+					<PACKAGE-REF format-rev="1" xsi:type="packageRef">
+						<PACKAGE-PATH xsi:type="string">../common/diag/COMMON_DIAG_S0001 (bus off).pkg</PACKAGE-PATH>
+					</PACKAGE-REF>
+				</COMPONENT>
+				<COMPONENT format-rev="5" xsi:type="packageTest">
+					<NAME xsi:type="string">COMMON_DIAG_S0002 (inverter2 os reset by fault)</NAME>
+					<ENABLED xsi:type="boolean">True</ENABLED>
+					<REPORTING xsi:type="boolean">True</REPORTING>
+					<ID xsi:type="string">e29d058b933a11ecba66000e6c7023a2</ID>
+					<COMPONENTS/>
+					<PACKAGE-REF format-rev="1" xsi:type="packageRef">
+						<PACKAGE-PATH xsi:type="string">../common/diag/COMMON_DIAG_S0002 (inverter2 os reset by fault).pkg</PACKAGE-PATH>
+					</PACKAGE-REF>
+				</COMPONENT>
+				<COMPONENT format-rev="5" xsi:type="packageTest">
+					<NAME xsi:type="string">COMMON_DIAG_S0003 (inverter2 major fault)</NAME>
+					<ENABLED xsi:type="boolean">True</ENABLED>
+					<REPORTING xsi:type="boolean">True</REPORTING>
+					<ID xsi:type="string">e29d058c933a11ec8196000e6c7023a2</ID>
+					<COMPONENTS/>
+					<PACKAGE-REF format-rev="1" xsi:type="packageRef">
+						<PACKAGE-PATH xsi:type="string">../common/diag/COMMON_DIAG_S0003 (inverter2 major fault).pkg</PACKAGE-PATH>
+					</PACKAGE-REF>
+				</COMPONENT>
+				<COMPONENT format-rev="5" xsi:type="packageTest">
+					<NAME xsi:type="string">COMMON_DIAG_S0004 (fault healing)</NAME>
+					<ENABLED xsi:type="boolean">True</ENABLED>
+					<REPORTING xsi:type="boolean">True</REPORTING>
+					<ID xsi:type="string">e29d2c98933a11ecbfac000e6c7023a2</ID>
+					<COMPONENTS/>
+					<PACKAGE-REF format-rev="1" xsi:type="packageRef">
+						<PACKAGE-PATH xsi:type="string">../common/diag/COMMON_DIAG_S0004 (fault healing).pkg</PACKAGE-PATH>
+					</PACKAGE-REF>
+				</COMPONENT>
+				<COMPONENT format-rev="5" xsi:type="packageTest">
+					<NAME xsi:type="string">COMMON_DIAG_S0005 (fault healing, safety)</NAME>
+					<ENABLED xsi:type="boolean">True</ENABLED>
+					<REPORTING xsi:type="boolean">True</REPORTING>
+					<ID xsi:type="string">e29d2c99933a11ec822e000e6c7023a2</ID>
+					<COMPONENTS/>
+					<PACKAGE-REF format-rev="1" xsi:type="packageRef">
+						<PACKAGE-PATH xsi:type="string">../common/diag/COMMON_DIAG_S0005 (fault healing, safety).pkg</PACKAGE-PATH>
+					</PACKAGE-REF>
+				</COMPONENT>
+				<COMPONENT format-rev="5" xsi:type="packageTest">
+					<NAME xsi:type="string">COMMON_DIAG_S0006 (inverter2 permASC)</NAME>
+					<ENABLED xsi:type="boolean">True</ENABLED>
+					<REPORTING xsi:type="boolean">True</REPORTING>
+					<ID xsi:type="string">e29d539c933a11ec965d000e6c7023a2</ID>
+					<COMPONENTS/>
+					<PACKAGE-REF format-rev="1" xsi:type="packageRef">
+						<PACKAGE-PATH xsi:type="string">../common/diag/COMMON_DIAG_S0006 (inverter2 permASC).pkg</PACKAGE-PATH>
+					</PACKAGE-REF>
+				</COMPONENT>
+				<COMPONENT format-rev="5" xsi:type="packageTest">
+					<NAME xsi:type="string">COMMON_DIAG_S0007 (crash)</NAME>
+					<ENABLED xsi:type="boolean">True</ENABLED>
+					<REPORTING xsi:type="boolean">True</REPORTING>
+					<ID xsi:type="string">e29d539d933a11ec8c25000e6c7023a2</ID>
+					<COMPONENTS/>
+					<PACKAGE-REF format-rev="1" xsi:type="packageRef">
+						<PACKAGE-PATH xsi:type="string">../common/diag/COMMON_DIAG_S0007 (crash).pkg</PACKAGE-PATH>
+					</PACKAGE-REF>
+				</COMPONENT>
+				<COMPONENT format-rev="5" xsi:type="packageTest">
+					<NAME xsi:type="string">COMMON_DIAG_S0008 (fault healing, safety, hv off)</NAME>
+					<ENABLED xsi:type="boolean">True</ENABLED>
+					<REPORTING xsi:type="boolean">True</REPORTING>
+					<ID xsi:type="string">e29d539e933a11ec8805000e6c7023a2</ID>
+					<COMPONENTS/>
+					<PACKAGE-REF format-rev="1" xsi:type="packageRef">
+						<PACKAGE-PATH xsi:type="string">../common/diag/COMMON_DIAG_S0008 (fault healing, safety, hv off).pkg</PACKAGE-PATH>
+					</PACKAGE-REF>
+				</COMPONENT>
+				<COMPONENT format-rev="5" xsi:type="packageTest">
+					<NAME xsi:type="string">COMMON_DIAG_S0009 (fault healing, temp)</NAME>
+					<ENABLED xsi:type="boolean">True</ENABLED>
+					<REPORTING xsi:type="boolean">True</REPORTING>
+					<ID xsi:type="string">e29d539f933a11ec854d000e6c7023a2</ID>
+					<COMPONENTS/>
+					<PACKAGE-REF format-rev="1" xsi:type="packageRef">
+						<PACKAGE-PATH xsi:type="string">../common/diag/COMMON_DIAG_S0009 (fault healing, temp).pkg</PACKAGE-PATH>
+					</PACKAGE-REF>
+				</COMPONENT>
+				<COMPONENT format-rev="5" xsi:type="packageTest">
+					<NAME xsi:type="string">COMMON_DIAG_S0010 (fault healing, temp, cl30)</NAME>
+					<ENABLED xsi:type="boolean">False</ENABLED>
+					<REPORTING xsi:type="boolean">True</REPORTING>
+					<ID xsi:type="string">e29d7ab8933a11ec8798000e6c7023a2</ID>
+					<COMPONENTS/>
+					<PACKAGE-REF format-rev="1" xsi:type="packageRef">
+						<PACKAGE-PATH xsi:type="string">../common/diag/COMMON_DIAG_S0010 (fault healing, temp, cl30).pkg</PACKAGE-PATH>
+					</PACKAGE-REF>
+				</COMPONENT>
+				<COMPONENT format-rev="5" xsi:type="packageTest">
+					<NAME xsi:type="string">COMMON_DIAG_S0011 (safety fault, asc - aso)</NAME>
+					<ENABLED xsi:type="boolean">True</ENABLED>
+					<REPORTING xsi:type="boolean">True</REPORTING>
+					<ID xsi:type="string">69e12924a93d11ec97a7000e6c081463</ID>
+					<COMPONENTS/>
+					<PACKAGE-REF format-rev="1" xsi:type="packageRef">
+						<PACKAGE-PATH xsi:type="string">../common/diag/COMMON_DIAG_S0011 (safety fault, asc - aso).pkg</PACKAGE-PATH>
+					</PACKAGE-REF>
+				</COMPONENT>
+				<COMPONENT format-rev="5" xsi:type="packageTest">
+					<NAME xsi:type="string">SO_COMMON_S0001 (startup)</NAME>
+					<ENABLED xsi:type="boolean">True</ENABLED>
+					<REPORTING xsi:type="boolean">True</REPORTING>
+					<ID xsi:type="string">f8715434933a11ecb0db000e6c7023a2</ID>
+					<COMPONENTS/>
+					<PACKAGE-REF format-rev="1" xsi:type="packageRef">
+						<PACKAGE-PATH xsi:type="string">../so/common/SO_COMMON_S0001 (startup).pkg</PACKAGE-PATH>
+					</PACKAGE-REF>
+				</COMPONENT>
+				<COMPONENT format-rev="5" xsi:type="packageTest">
+					<NAME xsi:type="string">SO_COMMON_S0002 (startup, dc_volt)</NAME>
+					<ENABLED xsi:type="boolean">True</ENABLED>
+					<REPORTING xsi:type="boolean">True</REPORTING>
+					<ID xsi:type="string">f8715435933a11ec846a000e6c7023a2</ID>
+					<COMPONENTS/>
+					<PACKAGE-REF format-rev="1" xsi:type="packageRef">
+						<PACKAGE-PATH xsi:type="string">../so/common/SO_COMMON_S0002 (startup, dc_volt).pkg</PACKAGE-PATH>
+					</PACKAGE-REF>
+				</COMPONENT>
+				<COMPONENT format-rev="5" xsi:type="packageTest">
+					<NAME xsi:type="string">SO_COMMON_S0003 (startup, EM_EV_Stat5)</NAME>
+					<ENABLED xsi:type="boolean">True</ENABLED>
+					<REPORTING xsi:type="boolean">True</REPORTING>
+					<ID xsi:type="string">f8715436933a11ecb289000e6c7023a2</ID>
+					<COMPONENTS/>
+					<PACKAGE-REF format-rev="1" xsi:type="packageRef">
+						<PACKAGE-PATH xsi:type="string">../so/common/SO_COMMON_S0003 (startup, EM_EV_Stat5).pkg</PACKAGE-PATH>
+					</PACKAGE-REF>
+				</COMPONENT>
+				<COMPONENT format-rev="5" xsi:type="packageTest">
+					<NAME xsi:type="string">SO_SHIFT_S0001 (all gears, standstill)</NAME>
+					<ENABLED xsi:type="boolean">True</ENABLED>
+					<REPORTING xsi:type="boolean">True</REPORTING>
+					<ID xsi:type="string">0462d558933b11ec9952000e6c7023a2</ID>
+					<COMPONENTS/>
+					<PACKAGE-REF format-rev="1" xsi:type="packageRef">
+						<PACKAGE-PATH xsi:type="string">../so/shift/SO_SHIFT_S0001 (all gears, standstill).pkg</PACKAGE-PATH>
+					</PACKAGE-REF>
+				</COMPONENT>
+			</COMPONENTS>
+		</COMPONENT>
+	</COMPONENTS>
+</PROJECT>
